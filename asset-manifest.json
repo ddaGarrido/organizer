@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/organizer/static/css/main.df380f51.css",
+    "main.js": "/organizer/static/js/main.1a04f4af.js",
+    "index.html": "/organizer/index.html",
+    "main.df380f51.css.map": "/organizer/static/css/main.df380f51.css.map",
+    "main.1a04f4af.js.map": "/organizer/static/js/main.1a04f4af.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.df380f51.css",
+    "static/js/main.1a04f4af.js"
+  ]
+}
