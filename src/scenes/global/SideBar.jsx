@@ -17,6 +17,8 @@ import { tokens } from "../../theme";
 import MenuOutlinedIcon from "@mui/icons-material/MenuOutlined";
 // import MapOutlinedIcon from "@mui/icons-material/MapOutlined";
 
+const { REACT_APP_AVATAR_URL } = process.env;
+
 const Item = ({ title, to, icon, selected, setSelected }) => {
   const theme = useTheme();
   const colors = tokens(theme.palette.mode);
@@ -96,7 +98,7 @@ const Sidebar = () => {
                   alt="profile-user"
                   width="100px"
                   height="100px"
-                  src={`../../assets/pepe.gif`}
+                  src={`${REACT_APP_AVATAR_URL}`}
                   style={{ cursor: "pointer", borderRadius: "50%" }}
                 />
               </Box>
